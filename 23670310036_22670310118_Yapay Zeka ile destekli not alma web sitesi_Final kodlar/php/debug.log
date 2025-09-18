@@ -1,0 +1,970 @@
+Command: python3 "C:\xampp\htdocs\summarizer\php/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+Command: python3 "C:\xampp\htdocs\summarizer\php/summarize_file.py" "../Uploads/Hafta11 (1).docx" 2>&1
+Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+Command: python3 "C:\xampp\htdocs\summarizer\php/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Error summarizing text: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\hp/nltk_data'
+    - 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python312\\nltk_data'
+    - 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python312\\share\\nltk_data'
+    - 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python312\\lib\\nltk_data'
+    - 'C:\\Users\\hp\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 90, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 87, in main
+    print(summary)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 57: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 90, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 87, in main
+    print(summary)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 57: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 86, in <module>
+    print(summary)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Encoding error: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>. Using fallback encoding.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 88, in main
+    print(summary.encode('utf-8').decode('utf-8', errors='replace'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 94, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 91, in main
+    print(summary.encode('utf-8', errors='replace').decode('utf-8'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/10_Diğer Flip-flop Türleri ve Saat Girişli Ardışıl Devrelerin Analizi.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Encoding error: 'charmap' codec can't encode character '\uf097' in position 0: character maps to <undefined>. Using fallback encoding.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 88, in main
+    print(summary.encode('utf-8').decode('utf-8', errors='replace'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 94, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 91, in main
+    print(summary.encode('utf-8', errors='replace').decode('utf-8'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 0: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/07_BCD Toplayıcı_Büyüklük Karşılaştırıcısı_Kod Çözücüler.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Encoding error: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>. Using fallback encoding.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 88, in main
+    print(summary.encode('utf-8').decode('utf-8', errors='replace'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 94, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 91, in main
+    print(summary.encode('utf-8', errors='replace').decode('utf-8'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/hafta5 (7).docx" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Encoding error: 'charmap' codec can't encode character '\u0131' in position 26: character maps to <undefined>. Using fallback encoding.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 88, in main
+    print(summary.encode('utf-8').decode('utf-8', errors='replace'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u0131' in position 26: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 94, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 91, in main
+    print(summary.encode('utf-8', errors='replace').decode('utf-8'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u0131' in position 26: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/06_Kombinezonal Lojik, Toplama ve Çıkarma Devreleri.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Encoding error: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>. Using fallback encoding.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 88, in main
+    print(summary.encode('utf-8').decode('utf-8', errors='replace'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 94, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 91, in main
+    print(summary.encode('utf-8', errors='replace').decode('utf-8'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+Command: python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\hp\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Encoding error: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>. Using fallback encoding.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 88, in main
+    print(summary.encode('utf-8').decode('utf-8', errors='replace'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 94, in <module>
+    main()
+  File "C:\xampp\htdocs\summarizer/summarize_file.py", line 91, in main
+    print(summary.encode('utf-8', errors='replace').decode('utf-8'))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uf097' in position 59: character maps to <undefined>
+
+Command: PYTHONIOENCODING=utf-8 python "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: 'PYTHONIOENCODING' is not recognized as an internal or external command,
+operable program or batch file.
+
+Command: C:\Python312\python.exe "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/10_Diğer Flip-flop Türleri ve Saat Girişli Ardışıl Devrelerin Analizi.pdf" 2>&1
+Output: The system cannot find the path specified.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/summ3.pdf" 2>&1
+Output: No sentences found in the text.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/08_Kodlayıcılar Demultiplexer ve Multiplexer.pdf" 2>&1
+Output: Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması -Örnek
+Aşağıda verilen Boole fonksiyonunu uygun birMultiplexer ile
+gerçekleyin . Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;ABC =110iken 6’ıncı verigirişi seçilmiş olurve6’ıncı
+veri girişi çıkışa aktarılır .Yani, Fçıkışı, D’nin değerinden
+bağımsız olarak 1’eeşitolur. Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;xy=00iken 0’ıncı verigirişi seçilmiş olurve0’ıncı
+verigirişi çıkışa aktarılır .Yani, Fçıkışı z’ye eşitolur.z=0
+iseçıkış 0,z=1iseçıkış 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Giriş
+Rasgele Erişim Belleği (RAM –Random Access Memory)
+İkili Depolama Hücresi
+RAM'in Mantıksal Yapısı
+Kesişen Kod Çözme (Coincident Decoding)
+SRAM –DRAM Karşılaştırması
+Adres Çoklama (Address Multiplexing)
+Giriş
+Birbellek birimi, büyük miktarda ikilibilgi depolayabilen bir
+hücre topluluğudur . 6 Transistörlü SRAM Hücresi 
+
+DRAM Hücresi 
+
+Adres Çoklama (Address Multiplexing)
+Büyük kapasiteleri nedeniyle, DRAM'lerin adres kod
+çözme işlemleri ikiboyutlu birdizide düzenlenir vedaha
+büyük bellekler genellikle birden çokdiziye sahiptir . İkili Depolama Hücresi
+mkelime vekelime başına nbitlik birRAM'in dahili
+yapısı, m*nikilidepolama hücresinden vetektek
+kelimeleri seçmek içinilgili kod çözme devrelerinden
+oluşur .
+
+Upload error: 0
+Upload error: 0
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/02_FonksiyonİfadeŞekilleriveDiğerLojikİşlemler (2).pdf" 2>&1
+Output: Örneğin, aşağıdaki tabloda f1fonksiyonunun 1olduğu
+satırlar bulunur .001,100 ve111 kombinasyonlarına
+karşılık düşen minterimler sırasıyla x’y’z, xy’z’ vexyz
+şeklindedir .Dolayısıyla,
+f1boole fonksiyonu :
+
+Kanonik ve Standart Biçimler
+Boole cebrinin 1.önemli özelliği :Herboole fonksiyonu
+minterimlerin toplamı olarak ifade edilebilir . Şimdi birboole fonksiyonunun tümleyenini göz önüne
+alalım .Buamaçla, doğruluk tablosunda fonksiyonunun 0
+olduğu her bir kombinasyona ilişkin minterimler
+VEYA’lanır :
+f1’fonksiyonunun tümleyeni alınırsa
+f1fonksiyonu elde edilir :
+
+Kanonik ve Standart Biçimler
+Boole cebrinin 2.önemli özelliği :Herboole fonksiyonu
+maksterimlerin çarpımı olarak ifade edilebilir . Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Kanonik ve Standart Biçimler
+Kanonik Biçimde Gösterim
+Minterimlerin Toplamı 
+Maksterimlerin Çarpımı
+Kanonik Yapılar Arasında Dönüşüm
+Standart Biçimde Gösterim
+Çarpımların Toplamı
+Toplamların Çarpımı
+Standart Olmayan Biçim
+Diğer Lojik İşlemler
+Kanonik ve Standart Biçimler
+İkilideğişkenler, örneğin x,normal (x)veya tümleyen
+formunda (x’)bulunurlar .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Giriş
+Rasgele Erişim Belleği (RAM –Random Access Memory)
+İkili Depolama Hücresi
+RAM'in Mantıksal Yapısı
+Kesişen Kod Çözme (Coincident Decoding)
+SRAM –DRAM Karşılaştırması
+Adres Çoklama (Address Multiplexing)
+Giriş
+Birbellek birimi, büyük miktarda ikilibilgi depolayabilen bir
+hücre topluluğudur . 6 Transistörlü SRAM Hücresi 
+
+DRAM Hücresi 
+
+Adres Çoklama (Address Multiplexing)
+Büyük kapasiteleri nedeniyle, DRAM'lerin adres kod
+çözme işlemleri ikiboyutlu birdizide düzenlenir vedaha
+büyük bellekler genellikle birden çokdiziye sahiptir . İkili Depolama Hücresi
+mkelime vekelime başına nbitlik birRAM'in dahili
+yapısı, m*nikilidepolama hücresinden vetektek
+kelimeleri seçmek içinilgili kod çözme devrelerinden
+oluşur .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/diferansiyel_ders_notu.pdf" 2>&1
+Output: 67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/diferansiyel_ders_notu.pdf" 2>&1
+Output: 67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/diferansiyel_ders_notu.pdf" 2>&1
+Output: [nltk_data] Error loading punkt: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading punkt_tab: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading stopwords: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/09_Senkron Ardışıl Lojik, Mandallar ve Flip-floplar.pdf" 2>&1
+Output: [nltk_data] Error loading punkt: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading punkt_tab: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading stopwords: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Ardışıl Lojik
+Senkron Ardışıl Lojik
+Depolama Elemanları: Mandallar (Latches)
+SR Mandalı
+S’R’ Mandalı
+İzin (Kontrol) Girişli SR Mandalı
+D Mandalı (Saydam Mandal)
+Mandalların Gafik Sembolleri
+Depolama Elemanları: Flip -Floplar
+Kenar Tetiklemeli D Flip -Flop
+Ardışıl Lojik
+Salt kombinezonal devrelerde, zamanın herhangi bir
+anındaki çıkışlar, tamamen oanki girişlere bağlıdır . Depolama Elemanları: Flip -Floplar
+Kontrol (izin)girişine darbeler uygulanan Dmandalı ,
+aslında, darbe lojik -1seviyesine hergittiğinde
+tetiklenen bir flip-flop’tur .Darbegirişi bu seviyede
+kaldığımüddetçe, verigirişindeki herhangi birdeğişim ;
+çıkışı vemandalın durumunu değiştirecektir . İzin (Kontrol) Girişli SR Mandalı 
+Kurma durumuna S=1,R=0veEn=1olduğunda ulaşılır .Bu
+giriş değerleriyle, solüstteki kapının çıkışı 0,solalttaki kapının
+çıkışı ise1olurvesonuç olarak Qçıkışı 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/09_Senkron Ardışıl Lojik, Mandallar ve Flip-floplar.pdf" 2>&1
+Output: [nltk_data] Error loading punkt: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading punkt_tab: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading stopwords: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Ardışıl Lojik
+Senkron Ardışıl Lojik
+Depolama Elemanları: Mandallar (Latches)
+SR Mandalı
+S’R’ Mandalı
+İzin (Kontrol) Girişli SR Mandalı
+D Mandalı (Saydam Mandal)
+Mandalların Gafik Sembolleri
+Depolama Elemanları: Flip -Floplar
+Kenar Tetiklemeli D Flip -Flop
+Ardışıl Lojik
+Salt kombinezonal devrelerde, zamanın herhangi bir
+anındaki çıkışlar, tamamen oanki girişlere bağlıdır . Depolama Elemanları: Flip -Floplar
+Kontrol (izin)girişine darbeler uygulanan Dmandalı ,
+aslında, darbe lojik -1seviyesine hergittiğinde
+tetiklenen bir flip-flop’tur .Darbegirişi bu seviyede
+kaldığımüddetçe, verigirişindeki herhangi birdeğişim ;
+çıkışı vemandalın durumunu değiştirecektir . İzin (Kontrol) Girişli SR Mandalı 
+Kurma durumuna S=1,R=0veEn=1olduğunda ulaşılır .Bu
+giriş değerleriyle, solüstteki kapının çıkışı 0,solalttaki kapının
+çıkışı ise1olurvesonuç olarak Qçıkışı 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/12_Rasgele Erişim Belleği RAM.pdf" 2>&1
+Output: [nltk_data] Error loading punkt: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading punkt_tab: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading stopwords: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Giriş
+Rasgele Erişim Belleği (RAM –Random Access Memory)
+İkili Depolama Hücresi
+RAM'in Mantıksal Yapısı
+Kesişen Kod Çözme (Coincident Decoding)
+SRAM –DRAM Karşılaştırması
+Adres Çoklama (Address Multiplexing)
+Giriş
+Birbellek birimi, büyük miktarda ikilibilgi depolayabilen bir
+hücre topluluğudur . 6 Transistörlü SRAM Hücresi 
+
+DRAM Hücresi 
+
+Adres Çoklama (Address Multiplexing)
+Büyük kapasiteleri nedeniyle, DRAM'lerin adres kod
+çözme işlemleri ikiboyutlu birdizide düzenlenir vedaha
+büyük bellekler genellikle birden çokdiziye sahiptir . İkili Depolama Hücresi
+mkelime vekelime başına nbitlik birRAM'in dahili
+yapısı, m*nikilidepolama hücresinden vetektek
+kelimeleri seçmek içinilgili kod çözme devrelerinden
+oluşur .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/10_Diğer Flip-flop Türleri ve Saat Girişli Ardışıl Devrelerin Analizi.pdf" 2>&1
+Output: [nltk_data] Error loading punkt: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading punkt_tab: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+[nltk_data] Error loading stopwords: <urlopen error [Errno 11001]
+[nltk_data]     getaddrinfo failed>
+Denklemlerdeki (t)
+gösterimlerini ihmal ederek,
+durum denklemlerini daha
+kısa veözlü birşekilde ifade
+edebiliriz :
+A(t + 1) = Ax + Bx
+B(t + 1) = A’x
+yçıkışının şuanki durum
+değeri cebirsel olarak şöyle
+ifade edilebilir :
+y = (A + B)x’
+
+Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Tablosu
+Girişlerin, çıkışların veflip-flop durumlarının zaman dizisi durum
+tablosuyla açıklanabilir (listelenebilir) . Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Depolama Elemanları: Flip -Floplar
+Kenar Tetiklemeli D Flip -Flop
+JK Flip -Flobu
+T (toggle) Flip -Flobu
+Flip-flopların Karakteristik Tabloları
+Karakteristik Denklemler
+Doğrudan Girişler (Direct Inputs)
+Saat Girişli Ardışıl Devrelerin Analizi
+Durum Denklemleri
+Durum Tablosu
+Durum Diyagramı 
+Kenar Tetiklemeli D Flip -Flop
+Kenar tetiklemeli Dflip-flobun diğer birgerçeklemesi üçtane S’R’
+mandalı kullanmaktadır . Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Denklemleri
+Flip-flobun Dgirişi bir
+sonraki durumun değerini
+belirlediğinden, devre için
+şudurum denklemlerini
+kolayca yazmak
+mümkündür :
+A(t + 1) = A(t)x(t) + B(t)x(t)
+B(t + 1) = A’(t)x(t)
+Birdurum denklemi ;bir
+flip-flop durum geçişi için
+koşulu belirten cebirsel bir
+ifadedir .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\summarizer/summarize_file.py" "../Uploads/08_Kodlayıcılar Demultiplexer ve Multiplexer.pdf" 2>&1
+Output: Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması -Örnek
+Aşağıda verilen Boole fonksiyonunu uygun birMultiplexer ile
+gerçekleyin . Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;ABC =110iken 6’ıncı verigirişi seçilmiş olurve6’ıncı
+veri girişi çıkışa aktarılır .Yani, Fçıkışı, D’nin değerinden
+bağımsız olarak 1’eeşitolur. Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;xy=00iken 0’ıncı verigirişi seçilmiş olurve0’ıncı
+verigirişi çıkışa aktarılır .Yani, Fçıkışı z’ye eşitolur.z=0
+iseçıkış 0,z=1iseçıkış 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/07_BCD Toplayıcı_Büyüklük Karşılaştırıcısı_Kod Çözücüler.pdf" 2>&1
+Output: Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Onlu Toplayıcı (Decimal Adder)
+BCD Toplayıcı 
+Büyüklük Karşılaştırıcısı (Magnitude Comparator)
+Kod Çözücüler (Decoders)
+Kod Çözücüler ile Kombinezonal Lojik Uygulaması
+Onlu Toplayıcı (Decimal Adder)
+Hesap makinelerinde veya bilgisayarlarda aritmetik işlemler
+onlu sayı sisteminde gerçekleştirilir . BCD Toplayıcı 
+Gereken düzeltmeler içinkoşullar veçıkış eldesi aşağıdaki
+Boole fonksiyonuyla ifade edilir :
+C = K+ Z8Z4+ Z8Z2
+Dolayısıyla, C=1olduğunda ikilitoplam sonucuna 0110
+eklenmeli ve bir sonraki kademe için çıkış eldesi
+üretilmelidir . Tam toplayıcının doğruluk tablosundan, fonksiyonlar minterimlerin
+toplamı biçiminde elde edilir :
+S (x,y,z) = Σ(1, 2, 4, 7)
+C (x,y,z) = Σ(3, 5, 6, 7)
+İstenen gerçekleştirme üçgiriş vesekiz
+minterim içerdiğinden, 3x8likbirkodçözücü
+gerektirir .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/08_Kodlayıcılar Demultiplexer ve Multiplexer.pdf" 2>&1
+Output: Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması -Örnek
+Aşağıda verilen Boole fonksiyonunu uygun birMultiplexer ile
+gerçekleyin . Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;ABC =110iken 6’ıncı verigirişi seçilmiş olurve6’ıncı
+veri girişi çıkışa aktarılır .Yani, Fçıkışı, D’nin değerinden
+bağımsız olarak 1’eeşitolur. Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;xy=00iken 0’ıncı verigirişi seçilmiş olurve0’ıncı
+verigirişi çıkışa aktarılır .Yani, Fçıkışı z’ye eşitolur.z=0
+iseçıkış 0,z=1iseçıkış 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/10_Diğer Flip-flop Türleri ve Saat Girişli Ardışıl Devrelerin Analizi.pdf" 2>&1
+Output: Denklemlerdeki (t)
+gösterimlerini ihmal ederek,
+durum denklemlerini daha
+kısa veözlü birşekilde ifade
+edebiliriz :
+A(t + 1) = Ax + Bx
+B(t + 1) = A’x
+yçıkışının şuanki durum
+değeri cebirsel olarak şöyle
+ifade edilebilir :
+y = (A + B)x’
+
+Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Tablosu
+Girişlerin, çıkışların veflip-flop durumlarının zaman dizisi durum
+tablosuyla açıklanabilir (listelenebilir) . Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Depolama Elemanları: Flip -Floplar
+Kenar Tetiklemeli D Flip -Flop
+JK Flip -Flobu
+T (toggle) Flip -Flobu
+Flip-flopların Karakteristik Tabloları
+Karakteristik Denklemler
+Doğrudan Girişler (Direct Inputs)
+Saat Girişli Ardışıl Devrelerin Analizi
+Durum Denklemleri
+Durum Tablosu
+Durum Diyagramı 
+Kenar Tetiklemeli D Flip -Flop
+Kenar tetiklemeli Dflip-flobun diğer birgerçeklemesi üçtane S’R’
+mandalı kullanmaktadır . Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Denklemleri
+Flip-flobun Dgirişi bir
+sonraki durumun değerini
+belirlediğinden, devre için
+şudurum denklemlerini
+kolayca yazmak
+mümkündür :
+A(t + 1) = A(t)x(t) + B(t)x(t)
+B(t + 1) = A’(t)x(t)
+Birdurum denklemi ;bir
+flip-flop durum geçişi için
+koşulu belirten cebirsel bir
+ifadedir .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/11_Kaydediciler ve Sayıcılar.pdf" 2>&1
+Output: Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Giriş
+Basit Kaydedici (Register)
+Paralel Yüklemeli Kaydedici (Register)
+Kaydırma Register’ı (Shift Register)
+Seri Transfer
+Sayıcılar (Counters)
+Ripple (Asenkron) Sayıcı
+Senkron Sayıcı
+Giriş
+Birsaat-girişli ardışıl devre, birgrup flip-flop’tan ve
+kombinezonal kapılardan oluşur . Seri Transfer
+Veri transferini denetleyecek kontrol ünitesi ,4bitin tamamını
+geçmek için, shift control sinyali aracılığıyla, dört saat
+darbesinden oluşan sabit birsüre boyunca kaydırma register’ını
+etkinleştirecek şekilde tasarlanmalıdır . Load= 0olduğunda, register’ın çıkışları
+ilgili girişlerine bağlanmış olur.Her
+saat kenarı ileDgirişi register’ın bir
+sonraki durumunu belirler .Çıkışın
+değişmeden kalması için Dgirişi
+çıkışın mevcut değerine eşitolmalıdır .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/08_Kodlayıcılar Demultiplexer ve Multiplexer.pdf" 2>&1
+Output: Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması -Örnek
+Aşağıda verilen Boole fonksiyonunu uygun birMultiplexer ile
+gerçekleyin . Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;ABC =110iken 6’ıncı verigirişi seçilmiş olurve6’ıncı
+veri girişi çıkışa aktarılır .Yani, Fçıkışı, D’nin değerinden
+bağımsız olarak 1’eeşitolur. Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;xy=00iken 0’ıncı verigirişi seçilmiş olurve0’ıncı
+verigirişi çıkışa aktarılır .Yani, Fçıkışı z’ye eşitolur.z=0
+iseçıkış 0,z=1iseçıkış 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/08_Kodlayıcılar Demultiplexer ve Multiplexer.pdf" 2>&1
+Output: Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması -Örnek
+Aşağıda verilen Boole fonksiyonunu uygun birMultiplexer ile
+gerçekleyin . Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;ABC =110iken 6’ıncı verigirişi seçilmiş olurve6’ıncı
+veri girişi çıkışa aktarılır .Yani, Fçıkışı, D’nin değerinden
+bağımsız olarak 1’eeşitolur. Multiplexer’ler ile Boole Fonksiyonlarının 
+Uygulanması –Örnek (Devam)
+Busoruda Multiplexer’in çalışmasını birörnekle açıklayacak
+olursak ;xy=00iken 0’ıncı verigirişi seçilmiş olurve0’ıncı
+verigirişi çıkışa aktarılır .Yani, Fçıkışı z’ye eşitolur.z=0
+iseçıkış 0,z=1iseçıkış 1olur.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/Yapay Zeka.pdf" 2>&1
+Output: Yapay Zekanın Zorlukları ve Etik Sorunlar :  
+Yapay zekanın sağladığı fırsatların yanı sıra, bazı zorluklar ve etik sorunlar 
+da bulunmaktadır:  
+• Gizlilik : YZ sistemleri, büyük miktarda veri toplar ve bu verilerin 
+kötüye kullanılması risk oluşturur. Yapay Zekanın Faydaları :  
+Yapay zeka, bireyler ve toplumlar için çok sayıda fayda sağlar:  
+• Verimlilik ve Otomasyon : YZ, tekrarlayan görevleri 
+otomatikleştirerek insan gücünden tasarruf sağlar. Yapay zekanın geleceğini şekillendirmek için şu öneriler öne çıkıyor:  
+• Eğitim ve Farkındalık : Toplumların YZ okuryazarlığını artırmak için eğitim 
+programları geliştirilmelidir.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/Yapay Zeka.pdf" 2>&1
+Output: Yapay Zekanın Zorlukları ve Etik Sorunlar :  
+Yapay zekanın sağladığı fırsatların yanı sıra, bazı zorluklar ve etik sorunlar 
+da bulunmaktadır:  
+• Gizlilik : YZ sistemleri, büyük miktarda veri toplar ve bu verilerin 
+kötüye kullanılması risk oluşturur. Yapay Zekanın Faydaları :  
+Yapay zeka, bireyler ve toplumlar için çok sayıda fayda sağlar:  
+• Verimlilik ve Otomasyon : YZ, tekrarlayan görevleri 
+otomatikleştirerek insan gücünden tasarruf sağlar. Yapay zekanın geleceğini şekillendirmek için şu öneriler öne çıkıyor:  
+• Eğitim ve Farkındalık : Toplumların YZ okuryazarlığını artırmak için eğitim 
+programları geliştirilmelidir.
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/Sayisal_Cozumleme_4.pdf" 2>&1
+Output: (2-T)
+171
+
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/10_Diğer Flip-flop Türleri ve Saat Girişli Ardışıl Devrelerin Analizi.pdf" 2>&1
+Output: Denklemlerdeki (t)
+gösterimlerini ihmal ederek,
+durum denklemlerini daha
+kısa veözlü birşekilde ifade
+edebiliriz :
+A(t + 1) = Ax + Bx
+B(t + 1) = A’x
+yçıkışının şuanki durum
+değeri cebirsel olarak şöyle
+ifade edilebilir :
+y = (A + B)x’
+
+Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Tablosu
+Girişlerin, çıkışların veflip-flop durumlarının zaman dizisi durum
+tablosuyla açıklanabilir (listelenebilir) . Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Depolama Elemanları: Flip -Floplar
+Kenar Tetiklemeli D Flip -Flop
+JK Flip -Flobu
+T (toggle) Flip -Flobu
+Flip-flopların Karakteristik Tabloları
+Karakteristik Denklemler
+Doğrudan Girişler (Direct Inputs)
+Saat Girişli Ardışıl Devrelerin Analizi
+Durum Denklemleri
+Durum Tablosu
+Durum Diyagramı 
+Kenar Tetiklemeli D Flip -Flop
+Kenar tetiklemeli Dflip-flobun diğer birgerçeklemesi üçtane S’R’
+mandalı kullanmaktadır . Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Denklemleri
+Flip-flobun Dgirişi bir
+sonraki durumun değerini
+belirlediğinden, devre için
+şudurum denklemlerini
+kolayca yazmak
+mümkündür :
+A(t + 1) = A(t)x(t) + B(t)x(t)
+B(t + 1) = A’(t)x(t)
+Birdurum denklemi ;bir
+flip-flop durum geçişi için
+koşulu belirten cebirsel bir
+ifadedir .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/10_Diğer Flip-flop Türleri ve Saat Girişli Ardışıl Devrelerin Analizi.pdf" 2>&1
+Output: Denklemlerdeki (t)
+gösterimlerini ihmal ederek,
+durum denklemlerini daha
+kısa veözlü birşekilde ifade
+edebiliriz :
+A(t + 1) = Ax + Bx
+B(t + 1) = A’x
+yçıkışının şuanki durum
+değeri cebirsel olarak şöyle
+ifade edilebilir :
+y = (A + B)x’
+
+Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Tablosu
+Girişlerin, çıkışların veflip-flop durumlarının zaman dizisi durum
+tablosuyla açıklanabilir (listelenebilir) . Üyesi Onur ÇAKIRGÖZ
+onurcakirgoz@bartin.edu.tr
+
+ANAHAT
+Depolama Elemanları: Flip -Floplar
+Kenar Tetiklemeli D Flip -Flop
+JK Flip -Flobu
+T (toggle) Flip -Flobu
+Flip-flopların Karakteristik Tabloları
+Karakteristik Denklemler
+Doğrudan Girişler (Direct Inputs)
+Saat Girişli Ardışıl Devrelerin Analizi
+Durum Denklemleri
+Durum Tablosu
+Durum Diyagramı 
+Kenar Tetiklemeli D Flip -Flop
+Kenar tetiklemeli Dflip-flobun diğer birgerçeklemesi üçtane S’R’
+mandalı kullanmaktadır . Saat Girişli Ardışıl Devrelerin Analizi –
+Durum Denklemleri
+Flip-flobun Dgirişi bir
+sonraki durumun değerini
+belirlediğinden, devre için
+şudurum denklemlerini
+kolayca yazmak
+mümkündür :
+A(t + 1) = A(t)x(t) + B(t)x(t)
+B(t + 1) = A’(t)x(t)
+Birdurum denklemi ;bir
+flip-flop durum geçişi için
+koşulu belirten cebirsel bir
+ifadedir .
+
+Command: "C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe" "C:\xampp\htdocs\23670310036_22670310118_Yapay Zeka ile destekli not alma web sitesi_Final kodlar/summarize_file.py" "../Uploads/Yapay Zeka.pdf" 2>&1
+Output: Yapay Zekanın Zorlukları ve Etik Sorunlar :  
+Yapay zekanın sağladığı fırsatların yanı sıra, bazı zorluklar ve etik sorunlar 
+da bulunmaktadır:  
+• Gizlilik : YZ sistemleri, büyük miktarda veri toplar ve bu verilerin 
+kötüye kullanılması risk oluşturur. Yapay Zekanın Faydaları :  
+Yapay zeka, bireyler ve toplumlar için çok sayıda fayda sağlar:  
+• Verimlilik ve Otomasyon : YZ, tekrarlayan görevleri 
+otomatikleştirerek insan gücünden tasarruf sağlar. Yapay zekanın geleceğini şekillendirmek için şu öneriler öne çıkıyor:  
+• Eğitim ve Farkındalık : Toplumların YZ okuryazarlığını artırmak için eğitim 
+programları geliştirilmelidir.
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Summarizer</title>
+  <script src="https://cdn.tailwindcss.com "></script>
+
+  <!-- Gradient Background Animation -->
+  <style>
+    body {
+      background: linear-gradient(-45deg, #fff5fa88, #ffe6f088, #ffd6e888);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body class="bg-[#FFF5FA] text-gray-800 min-h-screen">
+
+  <!-- Navigation Bar -->
+  <header class="bg-white shadow p-4 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-[#F4A2C2]">Summarizer</h1>
+      <nav class="space-x-6 text-sm font-medium hidden md:flex">
+        <a href="about.html" class="hover:text-[#F4A2C2] transition">About</a>
+        <a href="why-us.html" class="hover:text-[#F4A2C2] transition">Why Us?</a>
+        <a href="summarize.html" class="hover:text-[#F4A2C2] transition">Summarize</a>
+        <a href="login.html" class="hover:text-[#F4A2C2] transition">Login</a>
+        <a href="register.html" class="hover:text-[#F4A2C2] transition">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 mb-10 md:mb-0">
+      <img src="images/logo.png" alt="Logo" class="w-16 h-16 mb-4" />
+      <h2 class="text-4xl font-bold leading-tight mb-4 text-gray-900">
+        Welcome to the Summarizer
+      </h2>
+      <p class="text-lg mb-6 text-gray-600">
+        Upload your PDF, DOCX or MP3 file and get a quick summary in seconds.
+      </p>
+      <div class="flex space-x-4 space-x-reverse">
+        <a href="login.html" class="px-6 py-3 bg-[#F4A2C2] text-white rounded hover:bg-pink-500 transition">
+          Sign In
+        </a>
+        <a href="register.html" class="px-6 py-3 bg-white border border-[#F4A2C2] text-[#F4A2C2] rounded hover:bg-[#F4A2C2] hover:text-white transition">
+          Create Account
+        </a>
+      </div>
+    </div>
+
+    <div class="md:w-1/2 flex justify-center">
+      <img src="images/hero-bg.jpeg" alt="Quick Summary" class="rounded-lg shadow-xl transform hover:scale-105 transition duration-300 w-full max-w-md" />
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center text-gray-900">What We Offer</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <img src="icons/pdf-icon.png" alt="PDF Icon" class="w-12 h-12 mb-4" />
+        <h3 class="text-xl font-semibold mb-2">PDF Files</h3>
+        <p class="text-gray-600">Upload any PDF document and we'll extract the key points for you.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <img src="icons/docx-icon.png" alt="DOCX Icon" class="w-12 h-12 mb-4" />
+        <h3 class="text-xl font-semibold mb-2">Word Files</h3>
+        <p class="text-gray-600">Get summaries from Word documents quickly and accurately.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <img src="icons/audio-icon.png" alt="Audio Icon" class="w-12 h-12 mb-4" />
+        <h3 class="text-xl font-semibold mb-2">Audio Files</h3>
+        <p class="text-gray-600">Convert lectures or voice notes into concise written summaries.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Summarize Section -->
+  <section class="py-16 px-6 max-w-6xl mx-auto bg-white rounded-lg shadow-md mt-10">
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-6 md:mb-0">
+        <h3 class="text-2xl font-bold mb-4 text-gray-900">Summarize Your File Instantly</h3>
+        <p class="text-gray-600 mb-4">
+          Whether it's a lecture recording, research paper, or long document — our tool helps you save time by giving you instant summaries.
+        </p>
+        <ul class="list-disc pl-5 text-gray-600 space-y-2">
+          <li>Supports multiple formats: PDF, DOCX, MP3</li>
+          <li>Instant processing with high accuracy</li>
+          <li>Free for students and educators</li>
+        </ul>
+        <a href="summarize.html" class="inline-block mt-6 px-6 py-3 bg-[#F4A2C2] text-white rounded hover:bg-pink-500 transition">
+          Go to Summarize Page
+        </a>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img src="images/summarize-feature.jpeg" alt="Summarize Feature" class="rounded-lg shadow w-full max-w-md" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Your Journey Section -->
+  <section class="py-20 px-6 max-w-4xl mx-auto text-center bg-white rounded-lg shadow-md">
+    <h2 class="text-3xl font-bold mb-4 text-gray-900">Ready to Get Started?</h2>
+    <p class="text-lg mb-6 text-gray-600">
+      Join thousands of students who use our summarizer every day!
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6">
+      <a href="login.html" class="px-6 py-3 bg-[#F4A2C2] text-white rounded hover:bg-pink-500 transition">
+        Sign In
+      </a>
+      <a href="register.html" class="px-6 py-3 bg-white border border-[#F4A2C2] text-[#F4A2C2] rounded hover:bg-[#F4A2C2] hover:text-white transition">
+        Create Free Account
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#F4A2C2] text-white py-8 px-6 mt-12 text-center">
+    &copy; 2025 Summarizer - Designed by Mariam Abdelghanie & Mariam Mahmoud
+  </footer>
+
+</body>
+</html>
+

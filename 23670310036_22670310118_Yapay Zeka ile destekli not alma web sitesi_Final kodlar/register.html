@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - Summarizer</title>
+  <script src="https://cdn.tailwindcss.com "></script>
+
+  <!-- Gradient Background Animation -->
+  <style>
+    body {
+      background: linear-gradient(-45deg, #FFF5FA, #FFE6F0, #FFD6E8);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body class="bg-[#FFF5FA] text-gray-800 min-h-screen">
+
+  <!-- Navigation -->
+  <header class="bg-white shadow p-4 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-[#F4A2C2]">Summarizer</h1>
+      <nav class="space-x-6 text-sm font-medium hidden md:flex">
+        <a href="index.html" class="hover:text-[#F4A2C2] transition">Home</a>
+        <a href="about.html" class="hover:text-[#F4A2C2] transition">About</a>
+        <a href="why-us.html" class="hover:text-[#F4A2C2] transition">Why Us?</a>
+        <a href="summarize.html" class="hover:text-[#F4A2C2] transition">Summarize</a>
+        <a href="login.html" class="hover:text-[#F4A2C2] transition">Login</a>
+        <a href="contact.html" class="hover:text-[#F4A2C2] transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Registration Form -->
+  <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+    <img src="images/logo.png" alt="Logo" class="w-16 h-16 mb-6" />
+    <h2 class="text-3xl font-bold mb-6 text-gray-900">Create Your Account</h2>
+    <p class="text-lg mb-6 text-gray-600">
+      Join QuickSummarizer to start summarizing your files instantly.
+    </p>
+
+    <form action="php/register.php" method="post">
+      <div class="input-group mb-4 flex items-center justify-center">
+        <img src="icons/user-icon.png" alt="User Icon" class="input-icon w-6 h-6 mr-2" />
+        <input type="text" name="name" placeholder="Full Name" required class="px-4 py-2 border rounded w-80"/>
+      </div>
+      <div class="input-group mb-4 flex items-center justify-center">
+        <img src="icons/email-icon.png" alt="Email Icon" class="input-icon w-6 h-6 mr-2" />
+        <input type="email" name="email" placeholder="Email Address" required class="px-4 py-2 border rounded w-80"/>
+      </div>
+      <div class="input-group mb-4 flex items-center justify-center">
+        <img src="icons/password-icon.png" alt="Password Icon" class="input-icon w-6 h-6 mr-2" />
+        <input type="password" name="password" placeholder="Password" required class="px-4 py-2 border rounded w-80"/>
+      </div>
+      <button type="submit" class="px-6 py-3 bg-[#F4A2C2] text-white rounded hover:bg-pink-500 transition">
+        Sign Up
+      </button>
+    </form>
+
+    <div class="mt-6 text-center">
+      <p>Already have an account? <a href="login.html" class="text-[#F4A2C2] hover:text-pink-500">Login here</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#F4A2C2] text-white py-8 px-6 mt-12 text-center">
+    &copy; 2025 Summarizer - Designed by Mariam Abdelghanie & Mariam Mahmoud
+  </footer>
+
+</body>
+</html>
+
