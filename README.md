@@ -52,17 +52,6 @@ The summarizer is **extractive**: it scores the sentences of the document and re
 
 
 
-### Home page
-![Home page](docs/screenshots/01-home.png)
-
-### Summarize page
-![Summarize page](docs/screenshots/02-summarize.png)
-
-### Login and registration
-![Login and registration](docs/screenshots/03-auth.png)
-
----
-
 ## How it works
 
 ```mermaid
