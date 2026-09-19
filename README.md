@@ -245,6 +245,3 @@ Things to improve before a public deployment: CSRF tokens on forms, random file 
 
 ---
 
-## License
-
-Add a license file (for example MIT) to the repository root and mention it here.
